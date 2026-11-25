@@ -63,7 +63,7 @@ Clip selection favors sentence endings with punctuation. Scores are editing sugg
 **Windows** (PowerShell):
 
 ```powershell
-irm https://raw.githubusercontent.com/mehbul/chopify/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/thinkagainsri1/chopify/main/install.ps1 | iex
 ```
 
 **macOS / Linux:**
