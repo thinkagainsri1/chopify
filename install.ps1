@@ -72,7 +72,7 @@ function Install-WingetPackage($Id, $Label) {
 
 function Get-PythonCommand {
     if (Test-Command "py") {
-        foreach ($version in @("3.13", "3.12", "3.11")) {
+        foreach ($version in @("3.13", "3.12", "3.11.9")) {
             & py "-$version" -c "import sys" 2>$null
             if ($LASTEXITCODE -eq 0) {
                 return @("py", "-$version")
